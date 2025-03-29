@@ -1,4 +1,4 @@
 function reverseString(str) {
   return str.split("").reverse().join("");
 }
-console.log(reverseString(""));
+console.log(reverseString("yash mandhare"));

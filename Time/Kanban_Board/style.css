@@ -1,0 +1,48 @@
+*{
+   
+    padding: 0px;
+    margin: 0;
+
+}
+
+body{
+    background-color: #b53939;
+}
+
+.container{
+    display: flex;
+    padding: 35px;
+    gap: 10px;
+    
+    
+}
+
+.board{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 80vh;
+    border: 1px solid rgb(106, 20, 20);
+    border-radius: 6px;
+    width: 100vh;
+    background-color: #bd5555;
+    box-shadow: #bfafaf 1.95px 1.95px 2.6px;
+
+
+}
+
+.items{
+    padding-top: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.item{
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 10px    ;
+    border-radius: 8px;
+}
+
+.item:hover{
+    background-color: #f0a4a4;
+}

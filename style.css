@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+}
+
+/* .timer-container{
+    background-color: #404140;
+    /* width: auto; */
+    /* height: auto; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+} */
+
+/* .time{
+    color: aquamarine;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+} */ */
+
+
+.timer-container {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+        height: 100vh;             /* so it takes full screen height */
+    background: #f2f2f2;
+  }
+  
+  .time {
+    width: 200px;
+    height: 100px;
+    background-color: #917f39;
+    text-align: center;
+    line-height: 100px;
+  }
+  
